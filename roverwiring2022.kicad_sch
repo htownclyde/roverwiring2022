@@ -1368,6 +1368,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e91fe674-c1c1-4862-8818-0ae7097b3b78)
   )
+  (label "GND" (at 214.63 71.12 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eaccb5b5-4bdd-4eaa-a70f-5eccc9b929b1)
+  )
   (label "VCC" (at 250.19 132.08 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid ef633ea6-f971-4846-863f-68980a3463a8)
@@ -1714,7 +1718,7 @@
     (property "Reference" "BT1" (id 0) (at 196.85 128.27 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "24V" (id 1) (at 196.85 125.73 90)
+    (property "Value" "12V" (id 1) (at 196.85 125.73 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal" (id 2) (at 200.914 121.92 90)
@@ -1910,7 +1914,7 @@
       (reference "A4") (unit 1) (value "Pololu_Breakout_A4988") (footprint "Module:Pololu_Breakout-16_15.2x20.3mm")
     )
     (path "/7be0d89d-6acb-4975-9cf3-573cdcfcf128"
-      (reference "BT1") (unit 1) (value "24V") (footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal")
+      (reference "BT1") (unit 1) (value "12V") (footprint "Connector_BarrelJack:BarrelJack_CLIFF_FC681465S_SMT_Horizontal")
     )
     (path "/fbcc7916-b404-4e1b-ae53-81b82c5cd4a3"
       (reference "C1") (unit 1) (value "100uF") (footprint "Capacitor_THT:CP_Axial_L10.0mm_D4.5mm_P15.00mm_Horizontal")
